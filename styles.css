@@ -1,0 +1,129 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* Iniciación de la propiedad "display" para etiquetas de HTML5 para navegadores antiguos */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1.65rem;
+    
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  body{
+      background-color: rgb(40, 38, 49);
+      height: 100vh;
+      
+  }
+
+  .header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      height: 6rem;
+      background-color: white;
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #eeee;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .score{
+      position: relative;
+      border: 1px solid #eee;
+      margin-top: 20px;
+      height: 150px;
+      width: 270px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .score-cpu, .score-user{
+      position: absolute;
+      font-weight: bold;
+      font-size: 15px;
+      width: 50px;
+      height: 20px;
+      background-color: yellow;
+      color: black;
+      text-align: center;
+  }
+
+  .score-user{
+      top: 60px;
+      left: -10%;
+  }
+  .score-cpu{
+      right: -20px;
+      top: 60px;
+  }
+  .paragraph {
+      padding-top: 40px;
+  }
+
+  .images{
+      width: 500px;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .share {
+      display: flex;
+      justify-content: center;
+      border: 1px solid white;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+  }
+  .share:hover{
+      background-color: white;
+      
+  }
