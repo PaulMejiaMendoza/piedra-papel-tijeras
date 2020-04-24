@@ -108,6 +108,11 @@
       padding-top: 40px;
   }
 
+  #winner{
+      display: none;
+      margin-top: 40px;
+  }
+
   .images{
       width: 500px;
       padding-top: 50px;
@@ -122,6 +127,7 @@
       width: 150px;
       height: 150px;
       border-radius: 50%;
+      cursor: pointer;
   }
   .share:hover{
       background-color: white;
